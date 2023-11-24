@@ -84,7 +84,7 @@ export const Skill_data = [
     {
       name: "Discord",
       src: "/gitwhite.png",
-      href:"https://github.com/"
+      href:"https://github.com/ryanzhaoli"
     },
     {
       name: "Facebook",
