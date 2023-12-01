@@ -10,6 +10,7 @@ import {
 import { FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear()
   return (
     <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
         <div className="w-full flex flex-col items-center justify-center m-auto">
@@ -65,7 +66,7 @@ const Footer = () => {
 
             <div className="mb-[20px] text-[15px] text-center">
                 &copy; 
-                Ryan Dev 2023 Inc. All rights reserved
+                Ryan Dev {currentYear} Inc. All rights reserved
             </div>
         </div>
     </div>
