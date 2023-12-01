@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description: 'This is my portfolio',
   icons: {
 
-    icon: '/NavLogo.png',
+    icon: '/favicon.png',
     
     },
 }
