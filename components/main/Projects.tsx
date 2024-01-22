@@ -1,8 +1,12 @@
+"use client";
+
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
 
+
 const Projects = () => {
   return (
+   
     <div
       className="flex flex-col items-center justify-center py-20"
       id="projects"
@@ -11,22 +15,30 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+    
+    <ProjectCard
+          src="/appshop.png"
+          title="Appshop"
+          description="eCommerce application built with the MERN stack" 
+          link="https://appshop-abl8.onrender.com/"
+        />
+ 
         <ProjectCard
+         
           src="/ComingSoon.png"
           title="Coming Soon"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description=" "
+          link=""
         />
         <ProjectCard
-          src="/ComingSoon.png"
-          title="Coming Soon"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
-        <ProjectCard
+      
           src="/ComingSoon.png"
           title="Coming soon"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description=" "
+          link=""
         />
       </div>
+     
     </div>
   );
 };
