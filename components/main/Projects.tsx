@@ -25,10 +25,10 @@ const Projects = () => {
  
         <ProjectCard
          
-          src="/ComingSoon.png"
-          title="Coming Soon"
+          src="/fitnesszone.png"
+          title="Fitness Zone"
           description=" "
-          link=""
+          link="Frontend web design with Vanilla Javascript"
         />
         <ProjectCard
       
