@@ -20,7 +20,7 @@ const Projects = () => {
           src="/appshop.png"
           title="Appshop"
           description="eCommerce application built with the MERN stack" 
-          link="https://appshop-abl8.onrender.com/"
+          link="https://github.com/Ryanzhaoli/Appshop/"
         />
  
         <ProjectCard
