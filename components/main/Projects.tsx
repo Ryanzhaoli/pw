@@ -26,16 +26,16 @@ const Projects = () => {
         <ProjectCard
          
           src="/fitnesszone.png"
-          title="Fitness Zone"
-          description=" "
-          link="Frontend web design with Vanilla Javascript"
+          title="Fitnesszone"
+          description="Frontend web design with Vanilla Javascript"
+          link="https://github.com/Ryanzhaoli/fitnezone-store"
         />
         <ProjectCard
       
-          src="/ComingSoon.png"
-          title="Coming soon"
-          description=" "
-          link=""
+          src="/chatbot.png"
+          title="Chatbot"
+          description="An chatbot built with Vite and chatGPT API"
+          link="https://github.com/Ryanzhaoli/chatbot"
         />
       </div>
      
